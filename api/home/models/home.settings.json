@@ -19,7 +19,7 @@
     "manifesto": {
       "type": "richtext"
     },
-    "another_field": {
+    "another_renamed_field": {
       "type": "string"
     }
   }
