@@ -29,7 +29,7 @@ jobs:
           push: true
           tags: |
             ghcr.io/lodi-g/wbcp-backoffice:latest
-            ghcr.io/lodi-g/wbcp-backoffice:$GITHUB_SHA
+            ghcr.io/lodi-g/wbcp-backoffice:${{ github.sha }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
