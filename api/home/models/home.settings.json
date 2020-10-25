@@ -18,6 +18,9 @@
     },
     "manifesto": {
       "type": "richtext"
+    },
+    "another_field": {
+      "type": "string"
     }
   }
 }
