@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_home_hiws",
+  "info": {
+    "name": "HIW",
+    "icon": "glasses"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "intro": {
+      "type": "text",
+      "private": false,
+      "required": true
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.hiw-step"
+    }
+  }
+}

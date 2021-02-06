@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faq_qas",
+  "info": {
+    "name": "QA",
+    "icon": "question-circle"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

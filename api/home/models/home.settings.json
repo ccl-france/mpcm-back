@@ -19,8 +19,31 @@
     "manifesto": {
       "type": "richtext"
     },
-    "rename_me_ok": {
-      "type": "string"
+    "mainButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.link",
+      "required": true
+    },
+    "hiw": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.hiw"
+    },
+    "supportedBy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.supported-by"
+    },
+    "mentionedIn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.mentioned-in"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.seo"
     }
   }
 }

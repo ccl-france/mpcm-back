@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "name": "FAQ"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "qas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.qa"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.seo"
+    }
+  }
+}

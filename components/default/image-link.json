@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_default_image_links",
+  "info": {
+    "name": "ImageLink",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

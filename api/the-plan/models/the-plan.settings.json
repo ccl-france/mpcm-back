@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "the_plans",
+  "info": {
+    "name": "The Plan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "plan": {
+      "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.seo"
+    }
+  }
+}

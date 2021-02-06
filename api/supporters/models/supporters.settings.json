@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "supporters",
+  "info": {
+    "name": "Supporters"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "supportedBy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.supported-by",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.seo"
+    }
+  }
+}

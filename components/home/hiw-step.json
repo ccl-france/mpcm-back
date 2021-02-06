@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_hiw_steps",
+  "info": {
+    "name": "HIW/Step",
+    "icon": "step-forward"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

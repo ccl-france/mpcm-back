@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_mentioned_ins",
+  "info": {
+    "name": "MentionedIn",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "articles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "default.image-link"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/the-plan",
+      "handler": "the-plan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/the-plan",
+      "handler": "the-plan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/the-plan",
+      "handler": "the-plan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
