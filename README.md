@@ -1,3 +1,1 @@
-# Strapi application
-
-A quick description of your strapi application
+# Le meilleur plan climat du monde - backoffice
