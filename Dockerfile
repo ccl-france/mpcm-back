@@ -1,5 +1,8 @@
 FROM strapi/base:12-alpine
 
+ARG GITHUB_PAT
+ENV GITHUB_PAT=${GITHUB_PAT}
+
 ENV NODE_ENV production
 WORKDIR /app
 

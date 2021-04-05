@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  mcpm:
+    image: ghcr.io/ccl-france/mpcm-back:latest
+    volumes:
+      - database:/app/.tmp
+      - public:/app/public
+    ports:
+      - 9200:1337
+
+volumes:
+  database:
+  public:
