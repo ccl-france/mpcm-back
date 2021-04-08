@@ -10,7 +10,8 @@
       "type": "text"
     },
     "answer": {
-      "type": "text"
+      "type": "richtext",
+      "required": true
     }
   }
 }
