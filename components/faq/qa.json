@@ -12,6 +12,11 @@
     "answer": {
       "type": "richtext",
       "required": true
+    },
+    "showInHome": {
+      "type": "boolean",
+      "default": false,
+      "required": false
     }
   }
 }

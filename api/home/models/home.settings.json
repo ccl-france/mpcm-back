@@ -19,12 +19,6 @@
     "manifesto": {
       "type": "richtext"
     },
-    "mainButton": {
-      "type": "component",
-      "repeatable": false,
-      "component": "default.link",
-      "required": true
-    },
     "hiw": {
       "type": "component",
       "repeatable": false,

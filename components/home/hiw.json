@@ -10,11 +10,6 @@
       "type": "string",
       "required": true
     },
-    "intro": {
-      "type": "text",
-      "private": false,
-      "required": true
-    },
     "steps": {
       "type": "component",
       "repeatable": true,
