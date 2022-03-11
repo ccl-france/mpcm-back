@@ -13,9 +13,6 @@
       "type": "string",
       "required": true
     },
-    "subtitle": {
-      "type": "text"
-    },
     "manifesto": {
       "type": "richtext"
     },
@@ -38,6 +35,9 @@
       "type": "component",
       "repeatable": false,
       "component": "default.seo"
+    },
+    "subtitle": {
+      "type": "richtext"
     }
   }
 }

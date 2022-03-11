@@ -16,7 +16,12 @@
     "showInHome": {
       "type": "boolean",
       "default": false,
-      "required": false
+      "required": true
+    },
+    "showInFaq": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
